@@ -1,0 +1,26 @@
+.footer {
+  padding: 60px 0px;
+  background-color: $hero-bg-color;
+  &__container {
+    display: flex;
+  }
+  &__networks {
+    padding-top: 12px;
+    margin-left: 70px;
+    margin-right: 93px;
+  }
+  &__logo {
+    margin-bottom: 20px;
+  }
+  &__desc {
+    margin-bottom: 20px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $hero-color;
+  }
+}

@@ -1,0 +1,35 @@
+.clients {
+  &__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: $title-text-color;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__list .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $network-icon-color;
+    border-radius: 4px;
+    fill: $network-icon-color;
+    transition-property: fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  &__link:hover,
+  &__link:focus {
+    border: 1px solid $accent-color;
+    fill: $accent-color;
+  }
+}
